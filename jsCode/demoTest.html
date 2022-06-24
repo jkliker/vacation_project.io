@@ -1,0 +1,86 @@
+<!--<!DOCTYPE html>-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/demoTest.css">
+    <script type="text/javascript" src="js/demoTest.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="fruit_list">
+            <table id="tbl_list">
+                <tr>
+                    <th>名称</th>
+                    <th>单价</th>
+                    <th>数量</th>
+                    <th>小计</th>
+                    <th>操作</th>
+                </tr>
+
+                <tr>
+                    <td>苹果</td>
+                    <td >5</td>
+                    <td>20</td>
+                    <td>100</td>
+<!--                    <td><img src="imgs/fox.jpg" height="30" width="30"></td>-->
+                    <td><img src="imgs/fox.jpg" class="main"></td>
+                </tr>
+
+                <tr>
+                    <td>西瓜</td>
+                    <td >3</td>
+                    <td>20</td>
+                    <td>60</td>
+<!--                    <td><img src="imgs/huaji2.jpg" height="30" width="30"></td>-->
+                    <td><img src="imgs/huaji2.jpg" class="main"></td>
+                </tr>
+                <tr>
+                    <td>菠萝</td>
+                    <td >4</td>
+                    <td>25</td>
+                    <td>100</td>
+<!--                    <td><img src="imgs/huaji1.jpg" height="30" width="30"></td>-->
+                    <td><img src="imgs/huaji1.jpg" class="main"></td>
+                </tr>
+                <tr>
+                    <td>桃子</td>
+                    <td >4</td>
+                    <td>20</td>
+                    <td>80</td>
+<!--                    <td><img src="imgs/挠头.jpg" height="30" width="30"></td>-->
+                    <td><img src="imgs/挠头.jpg" class="main"></td>
+                </tr>
+                <tr>
+                    <td>总计</td>
+                    <td colspan="4">12345</td>
+                </tr>
+            </table>
+            <hr/>
+            <form id="add_fruit_div">
+                <table id="add_fruit_table">
+                    <tr>
+                        <td>名称:</td>
+                        <td ><input type="text" name="FruitName" class="shape" id="fname"></td>
+                    </tr>
+
+                    <tr>
+                        <td>单价:</td>
+                        <td><input type="text" name="FruitMoney" class="shape" id="fmoney"></td>
+                    </tr>
+                    <tr>
+                        <td>数量:</td>
+                        <td><input type="text" name="FruitCount" class="shape" id="fnumber"></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            <input type="button" value="添加" id="btn">
+                            <input type="reset" value="重置" id="rst">
+                        </th>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

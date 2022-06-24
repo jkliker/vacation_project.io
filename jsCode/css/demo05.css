@@ -1,0 +1,48 @@
+#container{
+          width: 80%;
+          height: 100%;
+          border: 0px solid blue;
+          margin-left: 10%;
+          background-color: bisque;
+          border-radius: 20px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: gray;
+}
+div{
+    position: relative;
+    float: left;
+}
+#tbl_list{
+    width: 60%;
+    line-height: 28px;
+
+    /**/
+    margin-top: 120px;
+    margin-left: 20%;
+}
+#tbl_list,#tbl_list tr,#tbl_list td,#tbl_list th{
+    border: 3px solid black;
+    /*width: 100%;*/
+    /*table-layout: fixed;*/
+    border-collapse: collapse;
+    /**/
+    /*text-align: center;*/
+    font-size: 16px;
+    font-family: 隶书;
+    font-weight: bolder;
+    color: #8b0000;
+}
+/*因为div id=tbl_list在div id=fruit_list内，fruit_list会限制tbl_list的大小，
+若想改变tbl_list的大小，则必须同时改变fruit_list的大小
+*/
+#fruit_list{
+    width: 100%;
+}
+.main{
+    height: 50px;
+    width: 50px;
+
+}
